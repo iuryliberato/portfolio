@@ -29,13 +29,22 @@ import { device } from '../components.styles/sizes'
 
 
 const projects = [{
+  type: 'right',
+  title: `EVE Events`,
+  description: 'I made a React app with a Python and Django back-end, React, JavaScript, CSS with Styled-Components in the front-end. Users can register/login manually or register/login with google, switch themes between dark and light mode,  search and filter events, confirm attendance, and create their own events. In their own profile, they can see, edit and delete events that they have created, and also see events that they are attending to.',
+  imageSrc: EveLight,
+  url: 'https://eve-social-events.herokuapp.com/',
+  github: 'https://github.com/iuryliberato/events',
+  tags: [],
+},
+{
   type: 'left',
-  title: `Get'a Wave`,
-  description: 'I had one week to build a grid-based game using JavaScript, HTML and CSS. My own version of frogger has three different characters, who must navigate the course using the keyboard arrow buttons while avoiding obstacles. The game increases in difficulty after each round.',
-  imageSrc: GetAWave,
-  url: 'https://iuryliberato.github.io/project-1/',
-  github: 'https://github.com/iuryliberato/project-1',
-  tags: ['JavaScript', 'CSS', 'HTML5'],
+  title: `Homemade Recipes`,
+  description: 'I made a React App with a Node back-end that uses Express, MongoDB and  Mongoose. Users can create accounts, write recipes, leave reviews including a picture of the recipe they made. They can also search recipes and view user profiles.',
+  imageSrc: Homemade,
+  url: 'https://recipes-homemade.herokuapp.com/',
+  github: 'https://github.com/vezmaxwell/Homemade',
+  tags: [],
 },
 {
   type: 'right',
@@ -45,22 +54,15 @@ const projects = [{
   url: 'https://iury-api-project.netlify.app/',
   github: 'https://github.com/iuryliberato/Place-App/blob/master/README.md',
   tags: [],
-}, {
+},
+{
   type: 'left',
-  title: `Homemade Recipes`,
-  description: 'I made a React App with a Node back-end that uses Express, MongoDB and  Mongoose. Users can create accounts, write recipes, leave reviews including a picture of the recipe they made. They can also search recipes and view user profiles.',
-  imageSrc: Homemade,
-  url: 'https://recipes-homemade.herokuapp.com/',
-  github: 'https://github.com/vezmaxwell/Homemade',
-  tags: [],
-}, {
-  type: 'right',
-  title: `EVE Events`,
-  description: 'I made a React app with a Python and Django back-end, React, JavaScript, CSS with Styled-Components in the front-end. Users can register/login manually or register/login with google, switch themes between dark and light mode,  search and filter events, confirm attendance, and create their own events. In their own profile, they can see, edit and delete events that they have created, and also see events that they are attending to.',
-  imageSrc: EveLight,
-  url: 'https://eve-social-events.herokuapp.com/',
-  github: 'https://github.com/iuryliberato/events',
-  tags: [],
+  title: `Get'a Wave`,
+  description: 'I had one week to build a grid-based game using JavaScript, HTML and CSS. My own version of frogger has three different characters, who must navigate the course using the keyboard arrow buttons while avoiding obstacles. The game increases in difficulty after each round.',
+  imageSrc: GetAWave,
+  url: 'https://iuryliberato.github.io/project-1/',
+  github: 'https://github.com/iuryliberato/project-1',
+  tags: ['JavaScript', 'CSS', 'HTML5'],
 }]
 
 const tags = [{
