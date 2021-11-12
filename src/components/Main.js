@@ -271,6 +271,7 @@ const Main = () => {
                 <ProjectContent>
                   <Title>{project.title}</Title>
                   <Info>{project.description}</Info>
+
                   <TagsProjects>
                     {project.tags.map((tags, index) => (
                       <Tag key={index}>
@@ -279,6 +280,7 @@ const Main = () => {
                       </Tag>
                     ))}
                   </TagsProjects>
+
                   <Buttons>
                     {project.github && (
                       <ViewCode href={project.github} target="_blank">VIEW SOURCE CODE</ViewCode>
@@ -301,6 +303,7 @@ const Main = () => {
 }
 const TagsProjects = styled.div`
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 `
 const Tags = styled(Container)`
