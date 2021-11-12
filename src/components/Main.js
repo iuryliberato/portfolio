@@ -229,7 +229,7 @@ const Main = () => {
 
           </HeadImage>
           <HeadLine>Ola, I'm Iury,</HeadLine>
-          <Subtext>a Brazilian Web Developer living and working in London. I'm currently looking for my first role after completing General Aseembly Bootcamp.
+          <Subtext>a Brazilian Web Developer living and working in London. I'm currently looking for my first role after completing General Assembly Bootcamp.
           </Subtext>
         </Profile>
       </ContainerHead>
