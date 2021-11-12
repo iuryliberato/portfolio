@@ -1,6 +1,6 @@
 {
-  "homepage": "https://iuryliberato.github.io/portfolio",
-  "name": "portifolio",
+  "homepage": "https://iuryliberato.me",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

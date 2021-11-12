@@ -50,16 +50,16 @@ const projects = [{
   title: `Homemade Recipes`,
   description: 'I made a React App with a Node back-end that uses Express, MongoDB and  Mongoose. Users can create accounts, write recipes, leave reviews including a picture of the recipe they made. They can also search recipes and view user profiles.',
   imageSrc: Homemade,
-  url: '',
-  github: '',
+  url: 'https://recipes-homemade.herokuapp.com/',
+  github: 'https://github.com/vezmaxwell/Homemade',
   tags: [],
 }, {
   type: 'right',
   title: `EVE Events`,
   description: 'I made a React app with a Python and Django back-end, React, JavaScript, CSS with Styled-Components in the front-end. Users can register/login manually or register/login with google, switch themes between dark and light mode,  search and filter events, confirm attendance, and create their own events. In their own profile, they can see, edit and delete events that they have created, and also see events that they are attending to.',
   imageSrc: EveLight,
-  url: '',
-  github: '',
+  url: 'https://eve-social-events.herokuapp.com/',
+  github: 'https://github.com/iuryliberato/events',
   tags: [],
 }]
 
@@ -189,8 +189,13 @@ const Main = () => {
                   <Title>{project.title}</Title>
                   <Info>{project.description}</Info>
                   <Buttons>
-                    <ViewCode href={project.github} target="_blank">VIEW SOURCE CODE</ViewCode>
-                    <ViewWebsite href={project.url} target="_blank">VIEW WEBSITE</ViewWebsite>
+                    {project.github && (
+                      <ViewCode href={project.github} target="_blank">VIEW SOURCE CODE</ViewCode>
+                    )}
+                    {project.url && (
+                      <ViewWebsite href={project.url} target="_blank">VIEW WEBSITE</ViewWebsite>
+                    )}
+
                   </Buttons>
                 </ProjectContent>
               </Card>
