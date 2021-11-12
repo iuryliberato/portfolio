@@ -242,9 +242,9 @@ const Main = () => {
           <AboutMeText>I am now ready for my first role as a web developer in a company where I can share my creativity, lively personality and learn new skills in a job that pushes me to become a great developer.</AboutMeText>
           <Title>Hobbies & Interests</Title>
           <List>
-            <li><span>Travelling:</span>I love traveling, learning new languages and exploring different cultures.</li>
-            <li><span>Fitness:</span>I like to stay active by working out, swimming, running and dancing.</li>
-            <li><span>Design:</span>I like to keep myself updated with the latest fashion and trends.</li>
+            <li><span>Travelling:</span> I love traveling, learning new languages and exploring different cultures.</li>
+            <li><span>Fitness:</span> I like to stay active by working out, swimming, running and dancing.</li>
+            <li><span>Design:</span> I like to keep myself updated with the latest fashion and trends.</li>
           </List>
         </Container>
       </ContainerAbout>
