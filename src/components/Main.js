@@ -35,7 +35,28 @@ const projects = [{
   imageSrc: EveLight,
   url: 'https://eve-social-events.herokuapp.com/',
   github: 'https://github.com/iuryliberato/events',
-  tags: [],
+  tags: [{
+    name: 'HTML5',
+    imageSrc: Html5
+  },
+  {
+    name: 'React',
+    imageSrc: ReactIcon
+  }, {
+    name: 'Python',
+    imageSrc: Python
+  },
+  {
+    name: 'Django',
+    imageSrc: Django
+  }, {
+    name: 'Styled Components',
+    imageSrc: Css3
+  }, {
+    name: 'Yarn',
+    imageSrc: Yarn
+  }
+  ],
 },
 {
   type: 'left',
@@ -44,7 +65,33 @@ const projects = [{
   imageSrc: Homemade,
   url: 'https://recipes-homemade.herokuapp.com/',
   github: 'https://github.com/vezmaxwell/Homemade',
-  tags: [],
+  tags: [{
+    name: 'HTML5',
+    imageSrc: Html5
+  },
+  {
+    name: 'JavaScript',
+    imageSrc: JavaScript
+  },
+  {
+    name: 'React',
+    imageSrc: ReactIcon
+  },
+  {
+    name: 'NodeJs',
+    imageSrc: NodeJs
+  }, {
+    name: 'Sass',
+    imageSrc: Sass
+  },
+  {
+    name: 'Yarn',
+    imageSrc: Yarn
+  },
+  {
+    name: 'Mongoose',
+    imageSrc: MongoDB
+  }],
 },
 {
   type: 'right',
@@ -53,7 +100,29 @@ const projects = [{
   imageSrc: BonVoyage,
   url: 'https://iury-api-project.netlify.app/',
   github: 'https://github.com/iuryliberato/Place-App/blob/master/README.md',
-  tags: [],
+  tags: [{
+    name: 'HTML5',
+    imageSrc: Html5
+  },
+  {
+    name: 'CSS3',
+    imageSrc: Css3
+  },
+  {
+    name: 'JavaScript',
+    imageSrc: JavaScript
+  },
+  {
+    name: 'React',
+    imageSrc: ReactIcon
+  },
+  {
+    name: 'Bootstrap',
+    imageSrc: Bootstrap
+  }, {
+    name: 'Yarn',
+    imageSrc: Yarn
+  }],
 },
 {
   type: 'left',
@@ -62,8 +131,20 @@ const projects = [{
   imageSrc: GetAWave,
   url: 'https://iuryliberato.github.io/project-1/',
   github: 'https://github.com/iuryliberato/project-1',
-  tags: ['JavaScript', 'CSS', 'HTML5'],
+  tags: [{
+    name: 'HTML5',
+    imageSrc: Html5
+  },
+  {
+    name: 'CSS3',
+    imageSrc: Css3
+  }, {
+    name: 'JavaScript',
+    imageSrc: JavaScript
+  }
+  ]
 }]
+
 
 const tags = [{
   name: 'HTML5',
@@ -190,6 +271,14 @@ const Main = () => {
                 <ProjectContent>
                   <Title>{project.title}</Title>
                   <Info>{project.description}</Info>
+                  <TagsProjects>
+                    {project.tags.map((tags, index) => (
+                      <Tag key={index}>
+                        <Skills src={tags.imageSrc} alt="HTML5" />
+                        <SkillsName>{tags.name}</SkillsName>
+                      </Tag>
+                    ))}
+                  </TagsProjects>
                   <Buttons>
                     {project.github && (
                       <ViewCode href={project.github} target="_blank">VIEW SOURCE CODE</ViewCode>
@@ -210,7 +299,10 @@ const Main = () => {
   )
 
 }
-
+const TagsProjects = styled.div`
+display: flex;
+justify-content: center;
+`
 const Tags = styled(Container)`
 display: flex;
 flex-wrap: wrap;
