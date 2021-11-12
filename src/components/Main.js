@@ -31,7 +31,7 @@ import { device } from '../components.styles/sizes'
 const projects = [{
   type: 'right',
   title: `EVE Events`,
-  description: 'I made a React app with a Python and Django back-end, React, JavaScript, CSS with Styled-Components in the front-end. Users can register/login manually or register/login with google, switch themes between dark and light mode,  search and filter events, confirm attendance, and create their own events. In their own profile, they can see, edit and delete events that they have created, and also see events that they are attending to.',
+  description: 'I made a React app with a Python and Django back-end, React, JavaScript, CSS with Styled-Components in the front-end. Users can register/login manually or register/login with Google, switch themes between dark and light mode,  search and filter events, confirm attendance, and create their own events. In their own profile, they can see, edit and delete events that they have created, and also see events that they are attending to.',
   imageSrc: EveLight,
   url: 'https://eve-social-events.herokuapp.com/',
   github: 'https://github.com/iuryliberato/events',
@@ -229,7 +229,7 @@ const Main = () => {
 
           </HeadImage>
           <HeadLine>Ola, I'm Iury,</HeadLine>
-          <Subtext>a Brazilian Web Developer living and working in London. I'm currently looking for my first role after completing General Aseembly's Bootcamp.
+          <Subtext>a Brazilian Web Developer living and working in London. I'm currently looking for my first role after completing General Aseembly Bootcamp.
           </Subtext>
         </Profile>
       </ContainerHead>
@@ -239,9 +239,13 @@ const Main = () => {
           <AboutMeText>I’m Iury, a Web Developer based in London. Having previously worked in the hospitality industry for seven years, where I learned to be a valuable team member and solve problems under pressure, I felt confident and ready for a career change.</AboutMeText>
           <AboutMeText>After teaching myself some coding online, I created my own personal website which allowed me to discover my passion for Web Development. To prepare for my first job as a Web Developer, I joined an immersive software engineering bootcamp with General Assembly.</AboutMeText>
           <AboutMeText>I found love in coding because it allows me to be creative, curious and constantly learning new skills. After 10 years without being in a class, learning how to code made me feel excited about how many things I’m capable of achieving .</AboutMeText>
-          <AboutMeText>I am now ready for my first role as a web developer in a company where I can share my creativity, lively personality and learn new skills in a job that pushes me to become a great developer</AboutMeText>
-          <AboutMeText></AboutMeText>
-
+          <AboutMeText>I am now ready for my first role as a web developer in a company where I can share my creativity, lively personality and learn new skills in a job that pushes me to become a great developer.</AboutMeText>
+          <Title>Hobbies & Interests</Title>
+          <List>
+            <li><span>Travelling:</span>I love traveling, learning new languages and exploring different cultures.</li>
+            <li><span>Fitness:</span>I like to stay active by working out, swimming, running and dancing.</li>
+            <li><span>Design:</span>I like to keep myself updated with the latest fashion and trends.</li>
+          </List>
         </Container>
       </ContainerAbout>
 
@@ -301,6 +305,11 @@ const Main = () => {
   )
 
 }
+const List = styled.ul`
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+`
 const TagsProjects = styled.div`
 display: flex;
 flex-wrap: wrap;
