@@ -167,10 +167,7 @@ top: 0;
 right: 0;
 left: 0;
 transform: translate(0,0);
-/* 
-@media ${device.desktop} {
-  position: static;
-} */
+
 `
 const SwitchDiv = styled.div`
  

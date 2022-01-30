@@ -245,8 +245,7 @@ const Main = () => {
           <HeadLine>Ola, I'm Iury,</HeadLine>
           <Subtext>
             a Brazilian Web Developer living and working in London. I'm
-            currently looking for my first role after completing General
-            Assembly Bootcamp.
+            currently looking for my first role as a Web Developer after working as a Teaching Assistant for General Assembly.
           </Subtext>
         </Profile>
       </ContainerHead>
@@ -272,9 +271,7 @@ const Main = () => {
             things I’m capable of achieving .
           </AboutMeText>
           <AboutMeText>
-            I am now ready for my first role as a web developer in a company
-            where I can share my creativity, lively personality and learn new
-            skills in a job that pushes me to become a great developer.
+            Once I finished the course, I was offered a position as a Teaching Assistant. After 3 months working for General Assembly, I’m now looking for my first role as a Web Developer.
           </AboutMeText>
         </Container>
       </ContainerAbout>
@@ -477,7 +474,7 @@ const Card = styled.div`
 
   @media ${device.desktop} {
     flex-direction: ${(props) =>
-      props.type === "left" ? "row" : "row-reverse"};
+    props.type === "left" ? "row" : "row-reverse"};
   }
 
   /* @media ${device.desktop} {
