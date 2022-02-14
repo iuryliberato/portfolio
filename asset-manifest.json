@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.cf189240.chunk.js",
-    "main.js.map": "/static/js/main.cf189240.chunk.js.map",
+    "main.js": "/static/js/main.dfa5a34f.chunk.js",
+    "main.js.map": "/static/js/main.dfa5a34f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41c9195b.js",
     "runtime-main.js.map": "/static/js/runtime-main.41c9195b.js.map",
     "static/css/2.cc77c331.chunk.css": "/static/css/2.cc77c331.chunk.css",
@@ -31,6 +31,7 @@
     "static/media/mongodb.3beac5ba.svg": "/static/media/mongodb.3beac5ba.svg",
     "static/media/node-js.2879fa18.svg": "/static/media/node-js.2879fa18.svg",
     "static/media/npm.8c0606a7.svg": "/static/media/npm.8c0606a7.svg",
+    "static/media/patrycja.44873462.png": "/static/media/patrycja.44873462.png",
     "static/media/python.026a6268.svg": "/static/media/python.026a6268.svg",
     "static/media/react.a060cbe8.svg": "/static/media/react.a060cbe8.svg",
     "static/media/sass.903cef0c.svg": "/static/media/sass.903cef0c.svg",
@@ -41,6 +42,6 @@
     "static/css/2.cc77c331.chunk.css",
     "static/js/2.b3e8287c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.cf189240.chunk.js"
+    "static/js/main.dfa5a34f.chunk.js"
   ]
 }
