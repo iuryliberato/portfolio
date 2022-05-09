@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.a1b1de35.chunk.js",
-    "main.js.map": "/static/js/main.a1b1de35.chunk.js.map",
+    "main.js": "/static/js/main.385ef4fa.chunk.js",
+    "main.js.map": "/static/js/main.385ef4fa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82d30130.js",
     "runtime-main.js.map": "/static/js/runtime-main.82d30130.js.map",
     "static/css/2.cc77c331.chunk.css": "/static/css/2.cc77c331.chunk.css",
@@ -14,13 +14,10 @@
     "static/css/2.cc77c331.chunk.css.map": "/static/css/2.cc77c331.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.1472980a.chunk.js.LICENSE.txt": "/static/js/2.1472980a.chunk.js.LICENSE.txt",
-    "static/media/Bon-Voyage.e7d07913.png": "/static/media/Bon-Voyage.e7d07913.png",
-    "static/media/Eve-light-theme.e307b410.png": "/static/media/Eve-light-theme.e307b410.png",
     "static/media/bootstrap.91aad92a.svg": "/static/media/bootstrap.91aad92a.svg",
     "static/media/css3.3ec32022.svg": "/static/media/css3.3ec32022.svg",
     "static/media/django.bd4cd03d.svg": "/static/media/django.bd4cd03d.svg",
     "static/media/figma.44ca2c32.svg": "/static/media/figma.44ca2c32.svg",
-    "static/media/getAWave.eaec60af.png": "/static/media/getAWave.eaec60af.png",
     "static/media/github.b2294bcc.svg": "/static/media/github.b2294bcc.svg",
     "static/media/homemade.5c81f124.png": "/static/media/homemade.5c81f124.png",
     "static/media/html-5.c1bb84e0.svg": "/static/media/html-5.c1bb84e0.svg",
@@ -31,7 +28,6 @@
     "static/media/mongodb.3beac5ba.svg": "/static/media/mongodb.3beac5ba.svg",
     "static/media/node-js.2879fa18.svg": "/static/media/node-js.2879fa18.svg",
     "static/media/npm.8c0606a7.svg": "/static/media/npm.8c0606a7.svg",
-    "static/media/patrycja.44873462.png": "/static/media/patrycja.44873462.png",
     "static/media/python.026a6268.svg": "/static/media/python.026a6268.svg",
     "static/media/react.a060cbe8.svg": "/static/media/react.a060cbe8.svg",
     "static/media/sass.903cef0c.svg": "/static/media/sass.903cef0c.svg",
@@ -42,6 +38,6 @@
     "static/css/2.cc77c331.chunk.css",
     "static/js/2.1472980a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.a1b1de35.chunk.js"
+    "static/js/main.385ef4fa.chunk.js"
   ]
 }
