@@ -32,6 +32,7 @@ display: flex;
 justify-content: center;
 margin: 30px 20px 10px;
 color: ${props => props.theme.headline};
+transition: color 0.3s, background-color 0.3s;
 `
 const Icon = styled.a`
 font-size: 40px;
@@ -54,7 +55,7 @@ font-family: 'Roboto Condensed', sans-serif;
 font-weight: bold;
 `
 const FooterContainer = styled.div`
-background-color: ${props => props.theme.footer};
+background-color: ${props => props.theme.footer};transition: color 0.3s, background-color 0.3s;
 color: white;
 height: 300px;
 display: flex;
