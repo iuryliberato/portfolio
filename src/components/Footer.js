@@ -15,7 +15,7 @@ const Footer = () => {
         <Icon target="blank" href="https://github.com/iuryliberato"><FontAwesomeIcon icon={faGithub} /></Icon>
       </FooterLinks>
 
-      <Contact>I'm currently avaible to work, contact me for a chat!</Contact>
+      <Contact>I'm currently available to work, contact me for a chat!</Contact>
       <Copy>	&copy; Iury Liberato 2021</Copy>
     </FooterContainer>
 
