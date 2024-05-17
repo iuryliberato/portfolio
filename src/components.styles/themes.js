@@ -5,26 +5,26 @@ export const lightTheme = {
   body: '#FFFFFF',
   text: '#0A0A0A',
   textHeaders: '#000000',
-  nav: '#254826',
+  nav: '#45597C',
   headline: '#FFFFFF',
   subHeader: '#000000',
   aboutBackground: '#FFFFFF',
   projectsBackground: '#F2F2F2',
-  website: '#254826',
-  footer: '#254826',
+  website: '#45597C',
+  footer: '#45597C',
   skills: '#F8F8F8',
   menu: '#9EBD9F',
-  menuBackground: '#254826'
+  menuBackground: '#45597C'
 }
 
 export const darkTheme = {
   dark: true,
   body: '#1D1D1D',
   text: '#fff',
-  textHeaders: '#00E0AA',
+  textHeaders: '#FFFFFF',
   nav: '#1D1D1D',
-  headline: '#00E0AA',
-  subHeader: '#00E0AA',
+  headline: '#FFFFFF',
+  subHeader: '#FFFFFF',
   aboutBackground: '#282828',
   projectsBackground: '#101010',
   website: '#616161',

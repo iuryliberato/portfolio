@@ -16,7 +16,7 @@ const Footer = () => {
       </FooterLinks>
 
       <Contact>I'm currently available to work, contact me for a chat!</Contact>
-      <Copy>	&copy; Iury Liberato 2021</Copy>
+      <Copy>	&copy; Iury Liberato 2024</Copy>
     </FooterContainer>
 
   )

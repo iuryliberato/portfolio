@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import ProfileForegroung from "../images/iury-foreground.png";
-import ProfileBackground from "../images/iury-background-2.png";
+import ProfileImage from "../images/profileimage.jpg";
+
 
 
 import ScrollAnimation from "react-animate-on-scroll";
@@ -293,10 +293,10 @@ const Main = () => {
       <ContainerHead id="Home">
         <Profile width="850px">
           <HeadImage>
-            <Background src={ProfileBackground} alt="ProfilePhoto" />
-            <Foreground src={ProfileForegroung} alt="ProfilePhoto" />
+            <Background src={ProfileImage} alt="ProfilePhoto" />
+
           </HeadImage>
-          <HeadLine>Olá, I'm <MyName> Iury </MyName> <Hand>👋 </Hand> </HeadLine>
+          <HeadLine>Olá, I'm <MyName> Iury </MyName> </HeadLine>
           <Subtext>
             a Brazilian <b>Web Developer</b> living and working in <b>London</b>. I'm
             currently looking for my first role as a Web Developer after working as a <b>Teaching Assistant for General Assembly</b>.
@@ -674,13 +674,12 @@ const ProfileImg = styled.img`
   height: 100%;
   width: 100%;
 `
-const Background = styled(ProfileImg)``;
-const Foreground = styled(ProfileImg)`
-  transition: transform 0.2s;
-  &:hover {
-    transform: scale(1.1) translateY(-8px);
-  }
-`
+const Background = styled.img`
+display: flex;
+width: 200px;
+justify-content: center;
+`;
+
 const HeadImage = styled.div`
   width: 210px;
   height: 210px;
