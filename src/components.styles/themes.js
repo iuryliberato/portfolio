@@ -13,7 +13,7 @@ export const lightTheme = {
   website: '#45597C',
   footer: '#45597C',
   skills: '#F8F8F8',
-  menu: '#9EBD9F',
+  menu: '#fff',
   menuBackground: '#45597C'
 }
 
@@ -30,7 +30,7 @@ export const darkTheme = {
   website: '#616161',
   footer: '#1F1F1F',
   skills: '#1D1D1D',
-  menu: '#00E0AA',
+  menu: '#fff',
   menuBackground: '#282828'
 }
 

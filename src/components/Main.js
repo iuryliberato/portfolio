@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import ProfileImage from "../images/profileimage.jpg";
+import ProfileImage from "../images/profileimage1.jpg";
 
 
 
@@ -319,12 +319,10 @@ const Main = () => {
           </AboutMeText>
           <AboutMeText>
             I found love in coding because it allows me to be <b>creative, curious
-              and constantly learning new skills</b>. After 10 years without being in
-            a class, learning how to code made me feel excited about how many
-            things I’m capable of achieving .
+              and constantly learning new skills</b>. After 10 years away from being in a classroom, learning how to code made me excited about how many things I’m capable of achieving.
           </AboutMeText>
           <AboutMeText>
-            Once I finished the course, I was offered a position as a <b>Teaching Assistant</b>. After 9 months working for General Assembly, I’m now looking for my <b>first role as a Web Developer</b>.
+            Once I finished the course, I was offered a position as a <b>Teaching Assistant</b>. After working for General Assembly for 2 years, I’m now looking for my <b>first role as a Web Developer</b>.
           </AboutMeText>
         </Container>
       </ContainerAbout>
@@ -393,19 +391,18 @@ const Main = () => {
         <AboutMe>Hobbies & Interests</AboutMe>
         <List>
           <AboutMeText>
-            I love <b>traveling</b>, learning new <b>languages</b>, exploring
-            different <b>cultures</b>, tasting different <b>food</b> and walking around cities <b>discovering</b> hidden gems.
+            I love <b>traveling</b>, learning new <b>languages</b>, exploring different <b>cultures</b>, tasting different <b>foods</b>, walking around cities to <b>discover</b> hidden gems, and <b>taking pictures</b>.
           </AboutMeText>
           <AboutMeText>
-            I like to stay active by <b>working out</b>, going for <b>long walks</b> and <b>ciclying</b>.
+            I like to stay active by <b>working out</b>, going for <b>long walks</b> and <b>cycling</b>.
           </AboutMeText>
           <AboutMeText>
-            When I'm home, I like to spend time with <b>friends</b> and of course with my <b>cats Caspar and Raton</b>.
+            When I'm home, I like to spend time with my <b>friends and family</b>, learning what they have been up to and <b>sharing experiences</b> with them.
           </AboutMeText>
           <InterestsPic>
             <ImagesInterests1> <WhiteCover>Local musitians in Lisbon 🎷 🪗</WhiteCover></ImagesInterests1>
             <ImagesInterests2> <WhiteCover>Ciclying in Berlin 🚲 🏛</WhiteCover></ImagesInterests2>
-            <ImagesInterests3> <WhiteCover>Caspar and Raton 🐈 🐈‍⬛</WhiteCover></ImagesInterests3>
+            <ImagesInterests3> <WhiteCover>My family 👨‍👩‍👧‍👦</WhiteCover></ImagesInterests3>
           </InterestsPic>
         </List>
       </Hobbies>
@@ -667,16 +664,10 @@ const HeadLine = styled.div`
   display: flex;
  
 `
-const ProfileImg = styled.img`
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-`
+
 const Background = styled.img`
 display: flex;
-width: 200px;
+width: 219px;
 justify-content: center;
 `;
 
